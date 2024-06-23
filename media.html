@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Series y películas favoritas</title>
+        <link href="./styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__menu">
+                <a class="header__menu__link" href="index.html">Home</a>
+                <a class="header__menu__link" href="about.html">Sobre mí</a>
+                <a class="header__menu__link" href="media.html">Series y películas favoritas</a>
+            </nav>
+        </header>
+        <main class="presentacion">
+            <section class="presentacion__contenido">
+                <h1 class="presentacion__contenido__titulo">Me gustan muchas series y películas</h1>
+                <p class="presentacion__contenido__texto">Algunas son de super héroes, ciencia ficción, humor o reflexivas. Me gusta ver
+                    gran variedad de contenido, algunas de estas son:
+                </p>
+                <h2 class="presentacion__contenido__texto">Agregar recomendación de serie o película: </h2>
+                <div class="form">
+                    
+                    <input type="text" id="recomendación">
+                    <button class="boton" onclick="agregar();">Agregar</button>
+                </div>
+            </section>
+            <ul class="presentacion__enlaces" id="listaseries">
+                <li>Arroz con pollo</li>
+                <li>Flash</li>
+                <li>Spiderman</li>
+                <li>B99</li>
+            </ul>
+           
+
+            
+        </main>
+        <footer class="footer">
+            <p>Desarrollado por mí</p>
+        </footer>
+
+        <script src="js.js"></script>
+    </body>
+</html>
